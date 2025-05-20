@@ -1,0 +1,22 @@
+.formInput input {
+  height: 42px;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.formInput input:focus {
+  box-shadow: none;
+  border-color: #0c113d;
+}
+
+.formInput input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.formInput input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
