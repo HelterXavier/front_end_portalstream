@@ -1,7 +1,16 @@
-# FRONTEND DO DESAFIO 01 - SEMEQ
+# FRONT-END DESAFIO 01 - SEMEQ
 
-- git clone
-- npm install
+<h1 align="center">
+  Front-end API Proxy Portal Stream
+</h1>
 
-- O Auth Provider cria um contexto com react para compartilhas o estado do usuário autenticado
-- Use effect mantem a sessão persistente entre os carregamentos feito pelo site. Os dados persistem armazenados no localstorage
+## Install Project
+
+```bash
+# FRONT END REACT JS
+git clone git@github.com:HelterXavier/front_end_portalstream.git
+
+npm install
+
+npm run dev
+```
